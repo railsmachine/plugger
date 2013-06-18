@@ -9,8 +9,6 @@ end
 require 'rails/generators'
 require 'active_support/dependencies'
 
-puts "I'm loading plugins from #{Rails.root}"
-
 Dir["#{Dir.pwd}/vendor/plugins/*/init.rb"].each do |f|
   require_or_load f
 end
