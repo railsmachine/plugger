@@ -1,3 +1,5 @@
+#! /usr/bin/env ruby 
+
 # Rails Plugin Manager.
 #
 # Installing plugins:
