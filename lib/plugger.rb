@@ -1,12 +1,11 @@
 class Plugger
   
   def self.hi
-    puts "Hi, I'm plugger"
+    puts "Hi, I'm plugger. This is just a stub."
   end
   
 end
-  
-puts "hey look, rails!"
+
 require 'rails/generators'
 require 'active_support/dependencies'
 
@@ -17,7 +16,6 @@ Dir["#{Dir.pwd}/vendor/plugins/*/init.rb"].each do |f|
 end
 
 Dir["#{Dir.pwd}/vendor/plugins/**/lib/generators/**/*.rb"].each do |f|
-  puts "Loading #{f}"
   require_or_load f
 end
   
