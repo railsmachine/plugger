@@ -12,3 +12,9 @@ Instead of using <code>script/rails plugin</code>, you now just use <code>plugge
 ## Support
 
 Plugger supports loading Rails 3-style generators, Rake tasks and, of course, regular plugin stuff through init.rb.
+
+## Help
+
+This took me a morning and a bit to throw together and has only really been tested against [Moonshine](https://github.com/railsmachine/moonshine).
+
+If you find bugs, please report them, but better yet - fix them and submit a pull request!
