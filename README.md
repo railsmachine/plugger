@@ -18,3 +18,6 @@ Plugger supports loading Rails 3-style generators, Rake tasks and, of course, re
 This took me a morning and a bit to throw together and has only really been tested against [Moonshine](https://github.com/railsmachine/moonshine).
 
 If you find bugs, please report them, but better yet - fix them and submit a pull request!
+
+***
+Unless otherwise specified, all content copyright &copy; 2014, [Rails Machine, LLC](http://railsmachine.com)
